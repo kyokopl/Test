@@ -1,0 +1,108 @@
+
+* {
+  font-size: 13px;
+}
+
+body {
+  background: #214b83;
+}
+
+.auth_nav {
+  padding:0;
+  background:white;
+}
+
+.navbar-brand {
+  padding-left: 0.5em;
+}
+
+.btn-group {
+  border-radius: 0;
+}
+
+.note {
+  border: 1px solid white;
+  color: white;
+  padding: 0.5em;
+}
+
+.logo {
+  max-height: 70px;
+}
+
+.carousel-item {
+  max-height: 100px;
+  padding: 180px 0px;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 4px solid #eb2737;
+}
+
+.content {
+  background: white; 
+}
+
+.about_container {
+  padding: 3em;
+}
+
+.card {
+  border: 1px solid transparent;
+  padding-top: 3em;
+}
+
+.card-img-top {
+  border-bottom: 3px solid #eb2737;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body {
+  background: #e8e8e8; 
+  color:#214b83
+}
+
+.list-group-item {
+  background: #214b83; 
+  color:white;
+}
+
+.members_say_container {
+  background: #e8e8e8; 
+  padding: 3em;
+}
+
+.footer {
+  color:white; 
+  margin: 0;
+}
+
+.table { 
+  color:white; 
+  text-decoration: none;
+}
+
+a {
+  color:white
+}
+
+td {
+  border: 1px solid transparent;
+}
+
+@media (min-width: 990px) {
+.container {width: 970px;}
+}
+
+@media (max-width: 510px) {
+  .table {display:none;}
+  .note {border: 1px solid transparent;}
+  .btn-group { 
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
